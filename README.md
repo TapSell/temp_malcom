@@ -1,6 +1,3 @@
-# temp_malcom
-As it said: temp :)
-
 ## Goal
 
 - Create a (beautiful! :D ) UI that shows random numbers from querying https://dev.tapsell.de:13000/random
