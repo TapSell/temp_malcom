@@ -7,14 +7,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="robots" content="noindex"/>
-
-    <link rel="stylesheet" type="text/css" href="/app.css">
-
-    <script defer src="/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="./app.css">
+    <script defer src="./app.js"></script>
   </head>
   
   <body>
-    <!-- Stuff going on -->
+  <!-- Stuff going on -->
+    <div class="box">
+      <div class="upper-box">
+        <div class="row">
+          <p class="randomNum" id="output">00</p>
+          <div class="dateBox" id="time"></div>
+        </div>
+          <table class="rowMiddle">
+            
+          </table>
+        <div class="row">
+          <button onclick="getRandomNumberDate()">NEXT</button>
+        </div>
+      </div>
+      <div class="lower-box">
+        <button id="b5">5</button>
+        <button id="b10">10</button>
+        <button id="b25">25</button>
+        <button id="b50">50</button>
+        <div class="inputClass">
+          <input type="text" placeholder="max" id="setMax">
+          <button type="submit" value="Set">SET</button>
+        </div>
+      </div>
+    </div>
   </body>
-
 </html>
